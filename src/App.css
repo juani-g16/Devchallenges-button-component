@@ -1,0 +1,49 @@
+main {
+  padding-left: 10%;
+}
+
+.grid-container {
+  display: grid;
+  grid-auto-columns: minmax(0, 1fr);
+  grid-auto-flow: column;
+}
+
+.group-37,
+.group-36,
+.group-35,
+.group-15,
+.group-38,
+.group-60,
+.group-40,
+.group-41,
+.group-42 {
+  width: 40%;
+  height: 60px;
+  position: relative;
+  margin-bottom: 2.5rem;
+}
+
+.group-60 {
+  width: 572px;
+}
+
+.group-41,
+.group-42 {
+  width: 802px;
+}
+
+.footer-icons {
+  color: #828282;
+  font-size: 12px;
+  font-family: Ubuntu Mono;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.footer-createdBy {
+  color: #a9a9a9;
+  font-size: 14px;
+  font-family: Montserrat;
+  font-weight: 500;
+  word-wrap: break-word;
+}
